@@ -1,0 +1,82 @@
+{
+  "brand": {
+    "name": "MyBrand",
+    "logo": "/images/logo.png"
+  },
+
+  "products": {
+    "categories": [
+      {
+        "types": [
+          {
+            "name": "Coffee-based",
+            "products": [
+              {
+                "name": "Amaretto",
+                "image": "/images/menucoffee/kopi/amaretto.png"
+              },
+              {
+                "name": "Capuchino",
+                "image": "/images/menucoffee/kopi/capuchino.png"
+              },
+              {
+                "name": "Cortado",
+                "image": "/images/menucoffee/kopi/cortado.png"
+              },
+              {
+                "name": "Espresso Romano",
+                "image": "/images/menucoffee/kopi/espresso_romano.png"
+              },
+              {
+                "name": "Latte",
+                "image": "/images/menucoffee/kopi/latte.png"
+              },
+              {
+                "name": "Morocchino",
+                "image": "/images/menucoffee/kopi/morocchino.png"
+              }
+            ]
+          },
+          {
+            "name": "Non-coffee",
+            "products": [{ "name": "Minuman", "image": "/images/location.jpg" }]
+          },
+          {
+            "name": "Food",
+            "products": [
+              { "name": "Produk B1", "image": "/images/produk-b1.jpg" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "location": {
+    "image": "/images/location.jpg",
+    "address": "Jl. Contoh No. 123, Jakarta",
+    "mapUrl": "https://maps.google.com/...",
+    "ecommerce": [
+      {
+        "name": "Shopee",
+        "url": "https://shopee.co.id"
+      },
+      {
+        "name": "Tokopedia",
+        "url": "https://tokopedia.com"
+      }
+    ]
+  },
+  "social": {
+    "whatsapp": {
+      "number": "+6281234567890",
+      "url": "https://wa.me/6281234567890"
+    },
+    "instagram": {
+      "username": "@namabrand",
+      "url": "https://instagram.com/namabrand"
+    }
+  },
+  "personal": {
+    "email": "contact@namabrand.com"
+  }
+}
