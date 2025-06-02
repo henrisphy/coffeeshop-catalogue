@@ -3,48 +3,173 @@
     "name": "MyBrand",
     "logo": "/images/logo.png"
   },
-
   "products": {
     "categories": [
       {
+        "name": "Minuman",
         "types": [
           {
             "name": "Coffee-based",
             "products": [
               {
+                "id": "1",
                 "name": "Amaretto",
-                "image": "/images/menucoffee/kopi/amaretto.png"
+                "image": "/images/menucoffee/kopi/amaretto.png",
+                "price": 25000,
+                "description": "Kopi dengan rasa almond yang nikmat",
+                "stock": 10
               },
               {
+                "id": "2",
                 "name": "Capuchino",
-                "image": "/images/menucoffee/kopi/capuchino.png"
+                "image": "/images/menucoffee/kopi/capuchino.png",
+                "price": 25000,
+                "description": "Kopi dengan rasa almond yang nikmat",
+                "stock": 10
               },
               {
+                "id": "3",
                 "name": "Cortado",
-                "image": "/images/menucoffee/kopi/cortado.png"
+                "image": "/images/menucoffee/kopi/cortado.png",
+                "price": 25000,
+                "description": "Kopi dengan rasa almond yang nikmat",
+                "stock": 10
               },
               {
+                "id": "4",
                 "name": "Espresso Romano",
-                "image": "/images/menucoffee/kopi/espresso_romano.png"
+                "image": "/images/menucoffee/kopi/espresso_romano.png",
+                "price": 25000,
+                "description": "Kopi dengan rasa almond yang nikmat",
+                "stock": 10
               },
               {
+                "id": "5",
                 "name": "Latte",
-                "image": "/images/menucoffee/kopi/latte.png"
+                "image": "/images/menucoffee/kopi/latte.png",
+                "price": 25000,
+                "description": "Kopi dengan rasa almond yang nikmat",
+                "stock": 10
               },
               {
+                "id": "6",
                 "name": "Morocchino",
-                "image": "/images/menucoffee/kopi/morocchino.png"
+                "image": "/images/menucoffee/kopi/morocchino.png",
+                "price": 25000,
+                "description": "Kopi dengan rasa almond yang nikmat",
+                "stock": 10
               }
             ]
           },
           {
             "name": "Non-coffee",
-            "products": [{ "name": "Minuman", "image": "/images/location.jpg" }]
-          },
-          {
-            "name": "Food",
             "products": [
-              { "name": "Produk B1", "image": "/images/produk-b1.jpg" }
+              {
+                "id": "7",
+                "name": "Roiboos",
+                "image": "/images/menucoffee/kopi/roiboos.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "8",
+                "name": "Green",
+                "image": "/images/menucoffee/kopi/green.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "9",
+                "name": "White",
+                "image": "/images/menucoffee/kopi/white.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "10",
+                "name": "Camomile",
+                "image": "/images/menucoffee/kopi/camomile.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "11",
+                "name": "Herbal",
+                "image": "/images/menucoffee/kopi/herbal.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "12",
+                "name": "Black",
+                "image": "/images/menucoffee/kopi/black.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Makanan",
+        "types": [
+          {
+            "name": "Ringan & Berat",
+            "products": [
+              {
+                "id": "13",
+                "name": "Kebab",
+                "image": "/images/menucoffee/kopi/kebab.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "14",
+                "name": "Potato",
+                "image": "/images/menucoffee/kopi/potato.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "15",
+                "name": "Spaghetti",
+                "image": "/images/menucoffee/kopi/spaghetti.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "16",
+                "name": "Dimsum",
+                "image": "/images/menucoffee/kopi/dimsum.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "17",
+                "name": "Croissant",
+                "image": "/images/menucoffee/kopi/croissant.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              },
+              {
+                "id": "18",
+                "name": "Meatball",
+                "image": "/images/menucoffee/kopi/meatball.png",
+                "price": 25000,
+                "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "stock": 10
+              }
             ]
           }
         ]
